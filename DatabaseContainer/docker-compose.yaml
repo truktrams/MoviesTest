@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+    database:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        container_name: sql-server-mssql
+        restart: always
+        volumes:
+            - /c/fractable/database/mssql/shared-folder:/var/fractable/shared-folder
+            - mssql-data:/var/opt/mssql
+        ports:
+            - "1433:1433"
+        environment:
+            - SA_PASSWORD=admin123
+            - MSSQL_PID=Express
+            - ACCEPT_EULA=Y
+volumes: 
+    mssql-data:

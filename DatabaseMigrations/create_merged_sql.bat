@@ -1,0 +1,1 @@
+copy /b *_migration.sql merged_migration.sql

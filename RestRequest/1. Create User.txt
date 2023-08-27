@@ -1,0 +1,9 @@
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "login": "js",
+  "password": "js123",
+  "email": "js@gm.co",
+  "phone": "1123345456",
+  "isActive": "true"
+}
