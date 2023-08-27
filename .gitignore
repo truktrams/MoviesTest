@@ -2,3 +2,4 @@
 /MoviesTest/MoviesTest.Sdk/bin
 /MoviesTest/MoviesTest.Web.Api/obj
 /MoviesTest/MoviesTest.Web.Api/bin
+/DatabaseMigrations/merged_migration.sql
